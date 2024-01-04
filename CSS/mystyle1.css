@@ -1,0 +1,63 @@
+
+  
+
+    .row {
+    display: flex;
+    }
+
+    /* Create three equal columns that sits next to each other */
+    .column {
+    flex: 33.33%;
+    padding: 10px;
+    
+    }
+    button{
+        margin: 20px;
+        width: 150px;
+        height: 20px;
+        border-radius: 10px;
+        height: 30px;
+        color: rgb(20, 20, 20);
+        font-size: 15px;
+        border: 2px solid  rgb(5, 5, 5);
+        background-color: rgb(25, 163, 255);
+    }
+    button:hover{
+        cursor:grab;
+        border: 10px;
+        color: rgb(14, 13, 13);
+        background-color:rgb(250, 234, 230) ;
+        border: 2px solid  rgb(0, 255, 76);
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        width: 165px;
+        height: 25px;
+    }
+
+    .h1{
+        padding: 10px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(9, 9, 243);
+        text-shadow: 5px 5px #ffffff;
+    }
+
+    h4{
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(0, 47, 255);
+
+    }
+    h5{
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: blue;
+        text-shadow: 0px 0px #e40404;
+    }
+    .img{
+        border: 5px solid #555;
+    }
